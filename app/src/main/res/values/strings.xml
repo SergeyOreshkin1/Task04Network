@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Task04Network</string>
+    <string name="fact">Факт</string>
+    <string name="exit">Выйти из приложения?</string>
+    <string name="BtnExitYes">Выход</string>
+    <string name="BtnExitNo">Отмена</string>
+    <string name="goToLightTheme">Установить светлую тему</string>
+    <string name="goToNightTheme">Установить темную тему</string>
+</resources>
