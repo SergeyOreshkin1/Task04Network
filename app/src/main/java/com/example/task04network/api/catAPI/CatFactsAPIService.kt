@@ -1,5 +1,6 @@
-package com.example.task04network.catFacts
+package com.example.task04network.api.catAPI
 
+import com.example.task04network.model.catFacts.CatFactsResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

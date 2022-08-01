@@ -6,8 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.task04network.databinding.RecyclerViewItemBinding
 import com.squareup.picasso.Picasso
 
-class DogImagesAndCatFactsAdapter(private val data: List<DogsAndCatFacts>) :
-    RecyclerView.Adapter<DogImagesAndCatFactsAdapter.DogViewHolder>() {
+class DogImagesAdapter(private val images: List<String>) :
+    RecyclerView.Adapter<DogImagesAdapter.DogViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogViewHolder {
         return DogViewHolder(
@@ -19,10 +19,10 @@ class DogImagesAndCatFactsAdapter(private val data: List<DogsAndCatFacts>) :
         )
     }
 
-    override fun getItemCount(): Int = data.size
+    override fun getItemCount(): Int = images.size
 
     override fun onBindViewHolder(holder: DogViewHolder, position: Int) {
-        val item = data[position]
+        val item = images[position]
         holder.bind(item)
     }
 
@@ -31,14 +31,10 @@ class DogImagesAndCatFactsAdapter(private val data: List<DogsAndCatFacts>) :
 
         private val binding = rvItemLayoutBinding
 
-        fun bind(item: DogsAndCatFacts) {
-            if (item.image!!.isNotEmpty()) {
-                Picasso.get().load(item.image).into(binding.dogImage)
+        fun bind(item: String) {
+            if (item.isNotEmpty()) {
+                Picasso.get().load(item).into(binding.dogImage)
             }
-            binding.factText.text = item.fact
         }
     }
 }
-
-
-

@@ -4,4 +4,6 @@
     <dimen name="radius">16dp</dimen>
     <dimen name="recyclerViewTextSize">18sp</dimen>
     <dimen name="imageSize">150dp</dimen>
+    <dimen name="cardSize">182dp</dimen>
+    <dimen name="rvDogSize">214dp</dimen>
 </resources>

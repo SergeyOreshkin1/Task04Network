@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Task04Network/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Task04Network/app/src/main/res/layout/cat_fact_recycler_view_item.xml" value="0.19895833333333332" />
         <entry key="..\:/Task04Network/app/src/main/res/layout/fragment_cat_fact.xml" value="0.5" />
         <entry key="..\:/Task04Network/app/src/main/res/layout/fragment_main.xml" value="0.2612137203166227" />
         <entry key="..\:/Task04Network/app/src/main/res/layout/recycler_view_item.xml" value="0.26992753623188404" />
